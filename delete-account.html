@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Я Досягну! — Видалення акаунта</title>
+  <meta name="description" content="Інструкція з видалення акаунта та пов’язаних даних у застосунку Я Досягну! / Я добьюсь! / I will achieve!">
+  <style>
+    :root{
+      --bg:#fffaf0; --card:#fff; --text:#243244; --muted:#667085;
+      --blue:#0849a5; --orange:#f07a00; --line:#e7edf5;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg); color:var(--text); line-height:1.6;
+    }
+    .wrap{max-width:920px;margin:0 auto;padding:24px 16px 56px}
+    .topbar{
+      display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px;
+      position:sticky;top:0;background:rgba(255,250,240,.96);
+      backdrop-filter:blur(8px);padding:12px 0;z-index:2;
+    }
+    button{
+      border:1px solid var(--line);background:#fff;color:var(--blue);
+      border-radius:999px;padding:10px 16px;font-weight:700;cursor:pointer;
+    }
+    button.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:18px;
+      box-shadow:0 6px 24px rgba(0,0,0,.05);padding:28px;
+    }
+    h1{color:var(--blue);font-size:clamp(30px,5vw,44px);line-height:1.12;margin:0 0 20px}
+    h2{color:var(--blue);font-size:22px;margin:28px 0 10px;line-height:1.25}
+    p{margin:0 0 13px}
+    ol,ul{margin:8px 0 16px 1.4rem;padding:0}
+    li{margin:7px 0}
+    li::marker{color:var(--orange);font-weight:700}
+    .note{
+      border-left:4px solid var(--orange);background:#fff8ed;
+      padding:12px 14px;border-radius:10px;margin:14px 0 18px;
+    }
+    a{color:var(--blue)}
+    .hidden{display:none}
+    .footer{color:var(--muted);font-size:13px;text-align:center;margin-top:18px}
+    @media(max-width:600px){.card{padding:20px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar" aria-label="Language">
+    <button class="active" data-lang="uk">Українська</button>
+    <button data-lang="ru">Русский</button>
+    <button data-lang="en">English</button>
+  </div>
+
+  <div class="card">
+    <section id="lang-uk" class="page" lang="uk">
+      <h1>Видалення акаунта «Я Досягну!»</h1>
+      <p><strong>Розробник:</strong> Сахаров Денис Андреевич</p>
+      <p>Користувач може самостійно видалити свій акаунт і пов’язані з ним дані безпосередньо в застосунку.</p>
+
+      <h2>Як видалити акаунт у застосунку</h2>
+      <ol>
+        <li>Увійдіть у свій акаунт.</li>
+        <li>Відкрийте розділ <strong>«Профіль»</strong>.</li>
+        <li>Натисніть <strong>«Видалити акаунт»</strong>.</li>
+        <li>Підтвердьте видалення.</li>
+      </ol>
+
+      <h2>Як запросити видалення, якщо немає доступу до застосунку</h2>
+      <p>Надішліть запит з електронної адреси, пов’язаної з вашим акаунтом, на
+        <a href="mailto:dsaharov88@gmail.com?subject=Видалення%20акаунта%20Я%20Досягну!">dsaharov88@gmail.com</a>.
+        У темі листа вкажіть: <strong>«Видалення акаунта Я Досягну!»</strong>.
+      </p>
+      <div class="note">Для захисту акаунта може знадобитися підтвердити, що запит надсилає його власник.</div>
+
+      <h2>Які дані видаляються</h2>
+      <ul>
+        <li>акаунт і дані авторизації, пов’язані з користувачем;</li>
+        <li>дані профілю та завантажений аватар, якщо він є;</li>
+        <li>цілі, звички, етапи, кроки та мотивація;</li>
+        <li>щоденні відмітки, прогрес, серії та статистика;</li>
+        <li>календарні дані, повторювані елементи та завдання;</li>
+        <li>записи щоденника, підсумки дня та особисті роздуми;</li>
+        <li>інші записи, пов’язані з ідентифікатором користувача.</li>
+      </ul>
+
+      <h2>Що може зберігатися обмежений час</h2>
+      <p>Окремі технічні журнали, резервні копії або дані, які постачальник інфраструктури зобов’язаний зберігати з міркувань безпеки чи відповідно до закону, можуть залишатися протягом обмеженого строку згідно з правилами відповідного сервісу. Вони не використовуються для відновлення активного акаунта користувача після завершення видалення.</p>
+
+      <h2>Строк обробки запиту</h2>
+      <p>Видалення через застосунок виконується після підтвердження користувачем. Запити, надіслані електронною поштою, обробляються у розумний строк після підтвердження права власності на акаунт.</p>
+    </section>
+
+    <section id="lang-ru" class="page hidden" lang="ru">
+      <h1>Удаление аккаунта «Я добьюсь!»</h1>
+      <p><strong>Разработчик:</strong> Сахаров Денис Андреевич</p>
+      <p>Пользователь может самостоятельно удалить свой аккаунт и связанные с ним данные непосредственно в приложении.</p>
+
+      <h2>Как удалить аккаунт в приложении</h2>
+      <ol>
+        <li>Войдите в свой аккаунт.</li>
+        <li>Откройте раздел <strong>«Профиль»</strong>.</li>
+        <li>Нажмите <strong>«Удалить аккаунт»</strong>.</li>
+        <li>Подтвердите удаление.</li>
+      </ol>
+
+      <h2>Как запросить удаление, если нет доступа к приложению</h2>
+      <p>Отправьте запрос с электронной почты, связанной с вашим аккаунтом, на
+        <a href="mailto:dsaharov88@gmail.com?subject=Удаление%20аккаунта%20Я%20добьюсь!">dsaharov88@gmail.com</a>.
+        В теме письма укажите: <strong>«Удаление аккаунта Я добьюсь!»</strong>.
+      </p>
+      <div class="note">Для защиты аккаунта может потребоваться подтвердить, что запрос отправляет его владелец.</div>
+
+      <h2>Какие данные удаляются</h2>
+      <ul>
+        <li>аккаунт и связанные с пользователем данные авторизации;</li>
+        <li>данные профиля и загруженный аватар, если он есть;</li>
+        <li>цели, привычки, этапы, шаги и мотивация;</li>
+        <li>ежедневные отметки, прогресс, серии и статистика;</li>
+        <li>календарные данные, повторяющиеся элементы и задачи;</li>
+        <li>записи дневника, итоги дня и личные размышления;</li>
+        <li>другие записи, связанные с идентификатором пользователя.</li>
+      </ul>
+
+      <h2>Что может храниться ограниченное время</h2>
+      <p>Отдельные технические журналы, резервные копии или данные, которые поставщик инфраструктуры обязан хранить в целях безопасности или по закону, могут оставаться ограниченное время в соответствии с правилами соответствующего сервиса. Они не используются для восстановления активного аккаунта после завершения удаления.</p>
+
+      <h2>Срок обработки запроса</h2>
+      <p>Удаление через приложение выполняется после подтверждения пользователем. Запросы по электронной почте обрабатываются в разумный срок после подтверждения права владения аккаунтом.</p>
+    </section>
+
+    <section id="lang-en" class="page hidden" lang="en">
+      <h1>Delete your “I will achieve!” account</h1>
+      <p><strong>Developer:</strong> Сахаров Денис Андреевич</p>
+      <p>Users can delete their account and associated data directly in the application.</p>
+
+      <h2>Delete your account in the app</h2>
+      <ol>
+        <li>Sign in to your account.</li>
+        <li>Open <strong>Profile</strong>.</li>
+        <li>Tap <strong>Delete account</strong>.</li>
+        <li>Confirm deletion.</li>
+      </ol>
+
+      <h2>Request deletion if you cannot access the app</h2>
+      <p>Send a request from the email address associated with your account to
+        <a href="mailto:dsaharov88@gmail.com?subject=Delete%20I%20will%20achieve!%20account">dsaharov88@gmail.com</a>.
+        Use the subject: <strong>“Delete I will achieve! account”</strong>.
+      </p>
+      <div class="note">To protect the account, you may be asked to verify that you are the account owner.</div>
+
+      <h2>Data that is deleted</h2>
+      <ul>
+        <li>the user account and related authentication data;</li>
+        <li>profile data and uploaded avatar, if any;</li>
+        <li>goals, habits, stages, steps, and motivation;</li>
+        <li>daily check-ins, progress, streaks, and statistics;</li>
+        <li>calendar data, recurring items, and tasks;</li>
+        <li>journal entries, daily reviews, and personal reflections;</li>
+        <li>other records linked to the user identifier.</li>
+      </ul>
+
+      <h2>Data that may be retained for a limited period</h2>
+      <p>Certain technical logs, backups, or information that an infrastructure provider must retain for security or legal reasons may remain for a limited period under that provider’s policies. Such data is not used to restore an active user account after deletion is completed.</p>
+
+      <h2>Request processing time</h2>
+      <p>In-app deletion is carried out after the user confirms the action. Email requests are processed within a reasonable period after account ownership has been verified.</p>
+    </section>
+  </div>
+
+  <div class="footer">Я Досягну! / Я добьюсь! / I will achieve!</div>
+</div>
+
+<script>
+const buttons = document.querySelectorAll('button[data-lang]');
+const pages = document.querySelectorAll('.page');
+buttons.forEach(btn => btn.addEventListener('click', () => {
+  const lang = btn.dataset.lang;
+  buttons.forEach(b => b.classList.toggle('active', b === btn));
+  pages.forEach(p => p.classList.toggle('hidden', p.id !== 'lang-' + lang));
+  document.documentElement.lang = lang;
+  history.replaceState(null, '', '#' + lang);
+}));
+const hash = location.hash.replace('#','');
+if (['uk','ru','en'].includes(hash)) {
+  document.querySelector(`button[data-lang="${hash}"]`).click();
+}
+</script>
+</body>
+</html>
